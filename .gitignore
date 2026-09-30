@@ -1,0 +1,17 @@
+.gradle/
+build/
+.idea/
+.kotlin/
+*.iml
+local.properties
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+xcuserdata/
+.figma-assets/
+.patches/
+keystore.properties
+*.jks
+*.keystore
+web/site/

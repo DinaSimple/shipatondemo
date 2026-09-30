@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Camera shots for new publications: app cache only, compressed + uploaded, never shared elsewhere. -->
+<paths>
+    <cache-path name="camera" path="camera/" />
+</paths>

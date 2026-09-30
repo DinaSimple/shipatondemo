@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Approximate location only: catalog distance sorting. Browsing works without it. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Push notifications (request status updates). Runtime dialog on Android 13+, asked after onboarding. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Gallery: Android photo picker (no storage permission needed). Camera: system camera app via
+         ACTION_IMAGE_CAPTURE — no CAMERA permission needed as long as the app does not declare it. -->
+    <queries>
+        <intent><action android:name="android.media.action.IMAGE_CAPTURE" /></intent>
+        <intent><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.APP_EMAIL" /></intent>
+    </queries>
+
+    <application
+        android:name=".FreeToTakeApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FreeToTake">
+        <!-- v1.16 AdMob app id (Google test id unless admob.appId is set in local.properties) -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${admobAppId}" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- v1.12: verification / recovery links. Verified App Link (needs assetlinks.json on the host) … -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="${authLinkHost}" android:pathPrefix="/auth/confirm" />
+            </intent-filter>
+            <!-- v1.15.1: return from browser OAuth (Facebook). -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="freetotake" android:host="login-callback" />
+            </intent-filter>
+            <!-- … and the app-scheme fallback used by the web confirmation page. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="freetotake" android:host="auth" android:pathPrefix="/confirm" />
+            </intent-filter>
+        </activity>
+        <!-- "Take a picture" (spec 0.11): the system camera writes into our cache via this provider. -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.photos"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/photo_paths" />
+        </provider>
+    </application>
+</manifest>

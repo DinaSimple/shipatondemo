@@ -1,0 +1,13 @@
+# Copy to local.properties (git-ignored) and fill in YOUR OWN values. Never commit real keys.
+sdk.dir=/Users/you/Library/Android/sdk
+# Supabase project (Project Settings → API). Leave empty to run the app with demo content only.
+supabase.url=https://YOUR_PROJECT_REF.supabase.co
+supabase.anonKey=sb_publishable_YOUR_KEY
+# Optional
+google.webClientId=YOUR_WEB_CLIENT_ID.apps.googleusercontent.com
+revenuecat.apiKey=goog_YOUR_PUBLIC_SDK_KEY
+# AdMob: Google's public TEST ids are used by default when these are missing.
+# admob.appId=ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY
+# admob.interstitialId=ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ
+app.versionCode=1
+app.versionName=1.17-demo
