@@ -1,4 +1,4 @@
--- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+-- SPDX-License-Identifier: AGPL-3.0-only
 -- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.12 — Login & auth: captcha-gated email links (sign-up + password recovery).
 -- The Edge Function `auth-email` (service role) is the only caller of these RPCs.

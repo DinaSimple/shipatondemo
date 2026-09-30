@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# SPDX-License-Identifier: AGPL-3.0-only
 # Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 """Builds the public developer site (Cloudflare Pages) into web/site/.
 

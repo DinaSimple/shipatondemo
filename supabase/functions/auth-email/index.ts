@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+// SPDX-License-Identifier: AGPL-3.0-only
 // Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 // v1.12/v1.13 — captcha-gated email links for sign-up and password recovery (spec "Login and auth").
 // POST JSON (always HTTP 200 with {ok, ...} or {ok:false, error}):

@@ -1,4 +1,4 @@
--- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+-- SPDX-License-Identifier: AGPL-3.0-only
 -- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.3 — Home "Available Giveaways": active listings only, optional city scope.
 -- Active = available/reserved AND not expired. Expiry is evaluated server-side at query time,

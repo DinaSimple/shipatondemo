@@ -1,6 +1,6 @@
 # Free to Take
 
-[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm%20Noncommercial%201.0.0-2ea043?labelColor=111)](LICENSE)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 
 **Give away what you don't need — for free.** An Android app that connects neighbours: post an item,
 choose who picks it up, meet at a time that suits you. No selling, no fees.
@@ -9,17 +9,19 @@ choose who picks it up, meet at a time that suits you. No selling, no fees.
 
 > Author: **Dina Elokhova** ([@DinaSimple](https://github.com/DinaSimple))
 
-## License
+## License and distribution
 
-**Source code** is licensed under the **[PolyForm Noncommercial License 1.0.0](LICENSE)**  
-([summary at polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0)).
+Unless expressly identified otherwise, **source code** is licensed under the  
+**[GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE)**  
+(official text: [gnu.org/licenses/agpl-3.0](https://www.gnu.org/licenses/agpl-3.0.html)).
 
-- Copyright © 2026 **Dina Elokhova** (DinaSimple) — [freetotake.app](https://freetotake.app)
-- You may use, study, modify, and share the code for **noncommercial** purposes only.
-- **Commercial use** (paid apps, SaaS, for-profit products, etc.) requires **written permission** from the copyright holder — see [NOTICE](NOTICE).
-- **Brand assets** (name “Free to Take”, logo, mascots, illustrations) are **not** covered by that license — [BRAND-ASSETS.md](BRAND-ASSETS.md) (all rights reserved).
+- Copyright © 2026 **Dina Elokhova** — [GitHub @DinaSimple](https://github.com/DinaSimple) · [freetotake.app](https://freetotake.app)
+- **Creative / brand assets** (not AGPL): [ASSETS-LICENSE.md](ASSETS-LICENSE.md) · file list [BRAND-ASSETS.md](BRAND-ASSETS.md)
+- **Third-party** libraries and services: [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)
+- **Patents:** [PATENTS.md](PATENTS.md)
+- **Redistribution:** [NOTICE](NOTICE) (AGPL source-offer and attribution requirements)
 
-The full legal text is in **[LICENSE](LICENSE)** (also linked from the repository sidebar on GitHub).
+The full license text is in **[LICENSE](LICENSE)** (shown in the GitHub repository sidebar).
 
 ## Features
 - Onboarding + **broccoli rewards** (start with 20; post +1, collected +1, request −1, finished pickup −1)
@@ -74,4 +76,4 @@ Each business flow is one commit `<version> - <note>` (1.0, 1.1, …) and extend
 
 ---
 
-**Legal:** [LICENSE](LICENSE) · [NOTICE](NOTICE) · [BRAND-ASSETS.md](BRAND-ASSETS.md)
+**Legal:** [LICENSE](LICENSE) · [NOTICE](NOTICE) · [ASSETS-LICENSE.md](ASSETS-LICENSE.md) · [BRAND-ASSETS.md](BRAND-ASSETS.md) · [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) · [PATENTS.md](PATENTS.md)

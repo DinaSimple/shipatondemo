@@ -1,4 +1,4 @@
--- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+-- SPDX-License-Identifier: AGPL-3.0-only
 -- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- Minimal stand-in for Supabase's auth/storage schemas so migrations + tests run
 -- on plain PostgreSQL (CI / local). NOT applied to the real Supabase project.

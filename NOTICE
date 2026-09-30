@@ -3,19 +3,17 @@ Copyright (C) 2026 Dina Elokhova (GitHub: DinaSimple) — https://freetotake.app
 
 Original author, product concept, UX flows, business rules and design: Dina Elokhova.
 
-This program's SOURCE CODE is licensed under the PolyForm Noncommercial License 1.0.0
-(see LICENSE). You may use, modify, and share the code for noncommercial purposes only.
-Commercial use (including selling the app, offering it as a paid service, or using it in a
-for-profit product) requires separate written permission from the copyright holder.
+This program's source code is free software: you can redistribute it and/or modify it under the
+terms of the GNU Affero General Public License, version 3 only (see LICENSE).
 
-When you redistribute this code or a modified version, you must:
+When you redistribute this code, a modified version of it, or run a modified version as a network
+service, the AGPL requires you to:
   * keep this NOTICE file and all copyright / author notices intact,
-  * include the full LICENSE text (or its URL) with any copy you distribute,
-  * clearly state that you changed the files and when.
+  * clearly state that you changed the files and when,
+  * publish your complete corresponding source code under the same license (AGPL-3.0).
 
-The NAME "Free to Take", the logos, the mascots (broccoli, croc, giraffe characters),
-illustrations, photos, Figma designs and other brand assets are NOT covered by this license
-— see BRAND-ASSETS.md.
+Creative assets excluded from the AGPL are described in ASSETS-LICENSE.md and BRAND-ASSETS.md.
+Third-party materials are listed in THIRD-PARTY-NOTICES.md. See PATENTS.md for the patent notice.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

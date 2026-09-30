@@ -1,4 +1,4 @@
--- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+-- SPDX-License-Identifier: AGPL-3.0-only
 -- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.2 — exact pickup information stays private until the giver approves a request.
 -- Public: items.area_city / area_postal / approx_lat / approx_lng (~1 km grid).

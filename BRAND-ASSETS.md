@@ -1,10 +1,11 @@
-# Brand assets — all rights reserved
+# Brand assets — file-level list
 
 Copyright © 2026 Dina Elokhova (DinaSimple). All rights reserved.
 
-The PolyForm Noncommercial License in `LICENSE` covers the **source code only** (noncommercial
-use). It does **not** grant any
-right to the following, which remain the exclusive property of the author:
+Legal terms for excluded creative assets: **[ASSETS-LICENSE.md](ASSETS-LICENSE.md)**.  
+Source code: **AGPL-3.0** — see **[LICENSE](LICENSE)**.
+
+The following files and names are **not** licensed under the AGPL as creative/brand materials:
 
 - the name **"Free to Take"**, the domain freetotake.app and any confusingly similar name;
 - the logo and app icon (`logo.png`, `logo_mascot.png`, `favicon.png`, `ic_launcher_*`);
