@@ -5,8 +5,10 @@ choose who picks it up, meet at a time that suits you. No selling, no fees.
 
 🎥 Demo: https://youtu.be/svM-y8RIBHg · 🌐 https://freetotake.app
 
-> Author: **Dina Yol** ([@DinaSimple](https://github.com/DinaSimple)). Source code under **AGPL-3.0** (see `LICENSE`, `NOTICE`).
-> Name, logo, mascots and illustrations are **not** open source — see `BRAND-ASSETS.md`.
+> Author: **Dina Yol** ([@DinaSimple](https://github.com/DinaSimple)). Source code under the
+> **[PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0)**
+> (noncommercial use only — see `LICENSE`, `NOTICE`). Name, logo, mascots and illustrations are
+> **not** open source — see `BRAND-ASSETS.md`.
 
 ## Features
 - Onboarding + **broccoli rewards** (start with 20; post +1, collected +1, request −1, finished pickup −1)

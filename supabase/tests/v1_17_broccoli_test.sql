@@ -1,4 +1,4 @@
--- SPDX-License-Identifier: AGPL-3.0-only
+-- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 -- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.17 broccoli: start 20, request −1, finished pickup −1, post +1, confirmed handover +1, blocked at 0
 \set ON_ERROR_STOP on

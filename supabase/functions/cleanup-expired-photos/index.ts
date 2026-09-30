@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: AGPL-3.0-only
+// SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 // Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
 // Daily photo cleanup (answer Q22): deletes photo files of publications that expired more than 14 days ago.
 // Called by pg_cron (job "photo-cleanup-daily") with a shared secret from Vault; verify_jwt is off,

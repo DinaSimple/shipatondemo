@@ -2,7 +2,8 @@
 
 Copyright © 2026 Dina Yol (DinaSimple). All rights reserved.
 
-The GNU AGPL-3.0 license in `LICENSE` covers the **source code only**. It does **not** grant any
+The PolyForm Noncommercial License in `LICENSE` covers the **source code only** (noncommercial
+use). It does **not** grant any
 right to the following, which remain the exclusive property of the author:
 
 - the name **"Free to Take"**, the domain freetotake.app and any confusingly similar name;

@@ -1,4 +1,4 @@
--- SPDX-License-Identifier: AGPL-3.0-only
+-- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 -- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.7 — Catalog card states, My Claims removal, favorites (spec 0.9 + 0.10)
 
