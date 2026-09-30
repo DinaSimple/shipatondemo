@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.9 — My Publications: Active and Archived (spec 0.12)
 
 -- in-app messages to requesters (chat comes later; stored here meanwhile)

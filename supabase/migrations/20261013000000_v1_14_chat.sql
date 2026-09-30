@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.14 — Chat between the publisher and the approved collector (text only).
 -- Source of truth: items.giver_id + the item's approved/completed claim (taker_id, pickup_at = meeting time).
 -- Access, meeting expiry and message limits are enforced here, not in the app.

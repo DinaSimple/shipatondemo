@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.7.1 — answers Q18/Q19: no re-request after rejection; no cancel after pickup time
 
 create or replace function public.submit_claim(p_item_id uuid, p_message text default null,

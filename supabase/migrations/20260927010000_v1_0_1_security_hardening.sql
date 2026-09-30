@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.0.1 — fixes from Supabase security advisor
 -- 1) pin search_path on helper functions
 alter function public._require_uid() set search_path = public;

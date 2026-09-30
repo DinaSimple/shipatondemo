@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.1 — public name vs service-generated nickname (General Requirements)
 -- Others see public_name when set, otherwise nickname. Email is never exposed.
 

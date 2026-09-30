@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.9.1 — privacy: apartment / entrance / floor are never collected (product decision). Columns + params removed.
 
 drop function public.publish_item(text, text, text, double precision, double precision, text, text, text, text, date, time, time, text[], text, text, text, text, text);

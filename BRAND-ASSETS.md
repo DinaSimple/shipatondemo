@@ -1,6 +1,6 @@
 # Brand assets — all rights reserved
 
-Copyright © 2026 Dina Yol (DinaSimple). All rights reserved.
+Copyright © 2026 Dina Elokhova (DinaSimple). All rights reserved.
 
 The PolyForm Noncommercial License in `LICENSE` covers the **source code only** (noncommercial
 use). It does **not** grant any
@@ -14,7 +14,7 @@ right to the following, which remain the exclusive property of the author:
 
 **Permitted without asking:** building and running this repository unchanged to evaluate, review or
 judge it (for example by hackathon judges), and showing screenshots of it in reviews or press
-coverage that credit "Free to Take by Dina Yol".
+coverage that credit "Free to Take by Dina Elokhova".
 
 **Not permitted without written permission:** using the name, logo, characters or illustrations in
 any other app, website, product, store listing or marketing, or publishing a fork under the

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
-// Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+// Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 package app.freetotake.domain.profile
 
 /** Copy from Figma "My profile" (spec 0.14). */

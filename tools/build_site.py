@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
-# Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+# Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 """Builds the public developer site (Cloudflare Pages) into web/site/.
 
 Pages: home, Terms & Conditions (web/brand/TERMSANDCONDITIONS.docx), Privacy Policy.

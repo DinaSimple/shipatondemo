@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- NOTE (1.10): written for the v1.0 queue behaviour; since 0.13 approving auto-rejects other requests (steps 14/19 differ).
 -- Use supabase/tests/run_local.sh for the up-to-date suite.
 -- Live smoke test for the v1.0 rules on a real Supabase project.

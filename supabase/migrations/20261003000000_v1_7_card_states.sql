@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.7 — Catalog card states, My Claims removal, favorites (spec 0.9 + 0.10)
 
 -- 0.10: a listing with a selected recipient (reserved) is hidden from the public feed

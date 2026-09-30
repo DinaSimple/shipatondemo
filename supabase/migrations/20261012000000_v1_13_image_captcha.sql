@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.13 — own image captcha (tiles bundled in the app as files/cap/<id>.jpg; labels only on the server).
 -- Replaces hCaptcha. A solved challenge yields a pass token (hash stored) valid 15 min, consumed when an email is sent.
 

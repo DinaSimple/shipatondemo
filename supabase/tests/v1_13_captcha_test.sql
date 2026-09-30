@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 begin;
 -- Public demo copy: real tile answers are not published, so the test seeds 180 synthetic tiles (10 labels × 18).
 insert into public.captcha_tiles (id, label)

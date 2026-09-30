@@ -1,5 +1,5 @@
 -- SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
--- Copyright (C) 2026 Dina Yol (DinaSimple) — Free to Take, https://freetotake.app
+-- Copyright (C) 2026 Dina Elokhova (DinaSimple) — Free to Take, https://freetotake.app
 -- v1.5 categories
 \set ON_ERROR_STOP on
 insert into auth.users (id, email) values ('00000000-0000-0000-0000-0000000000c5', 'g5@x.io');
